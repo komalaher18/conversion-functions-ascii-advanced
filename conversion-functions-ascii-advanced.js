@@ -9,7 +9,9 @@ Consult documentation on how to utilize the following methods:
 
 /* Base 2 to base 16 */
 function binaryToHexadecimal(blob) {
-  // Your code here
+  const num1 = parseInt(blob.slice(2), 2);
+  const num2 = num1.toString(16);
+  return `0x${num2}`;
 }
 
 /* Base 16 to base 2 */
