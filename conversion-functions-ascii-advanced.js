@@ -34,7 +34,8 @@ function binaryToAscii(blob) {
 
 /* Base 16 to ASCII */
 function hexadecimalToAscii(blob) {
-  // Your code here
+  const num1 = parseInt(blob.slice(2), 16);
+  return(String.fromCharCode(num1));
 }
 
 /* ASCII to base 10 */
