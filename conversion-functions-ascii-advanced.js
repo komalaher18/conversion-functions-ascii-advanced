@@ -16,7 +16,9 @@ function binaryToHexadecimal(blob) {
 
 /* Base 16 to base 2 */
 function hexadecimalToBinary(blob) {
-  // Your code here
+  const num1 = parseInt(blob.slice(2), 16);
+  const num2 = num1.toString(2);
+  return `0b${num2}`
 }
 
 /* Base 10 to ASCII */
@@ -44,10 +46,10 @@ function asciiToDecimal(blob) {
 // console.log(binaryToHexadecimal('0b0011')) // '0x3'
 // console.log('')
 
-// console.log('Hexadecimal to binary:')
-// console.log(hexadecimalToBinary('0xa1'))  // '0b10100001'
-// console.log(hexadecimalToBinary('0xff'))  // '0b11111111'
-// console.log('')
+console.log('Hexadecimal to binary:')
+console.log(hexadecimalToBinary('0xa1'))  // '0b10100001'
+console.log(hexadecimalToBinary('0xff'))  // '0b11111111'
+console.log('')
 
 // console.log('Decimal to ASCII:')
 // console.log(decimalToAscii(65))  // 'A'
