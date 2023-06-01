@@ -46,10 +46,10 @@ function asciiToDecimal(blob) {
 // console.log(binaryToHexadecimal('0b0011')) // '0x3'
 // console.log('')
 
-console.log('Hexadecimal to binary:')
-console.log(hexadecimalToBinary('0xa1'))  // '0b10100001'
-console.log(hexadecimalToBinary('0xff'))  // '0b11111111'
-console.log('')
+// console.log('Hexadecimal to binary:')
+// console.log(hexadecimalToBinary('0xa1'))  // '0b10100001'
+// console.log(hexadecimalToBinary('0xff'))  // '0b11111111'
+// console.log('')
 
 // console.log('Decimal to ASCII:')
 // console.log(decimalToAscii(65))  // 'A'
