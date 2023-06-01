@@ -28,7 +28,8 @@ function decimalToAscii(blob) {
 
 /* Base 2 to ASCII */
 function binaryToAscii(blob) {
-  // Your code here
+  const num1 = parseInt(blob.slice(2), 2);
+  return (String.fromCharCode(num1))
 }
 
 /* Base 16 to ASCII */
