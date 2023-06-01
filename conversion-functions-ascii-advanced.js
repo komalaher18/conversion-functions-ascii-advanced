@@ -23,7 +23,7 @@ function hexadecimalToBinary(blob) {
 
 /* Base 10 to ASCII */
 function decimalToAscii(blob) {
-  // Your code here
+  return (String.fromCharCode(blob));
 }
 
 /* Base 2 to ASCII */
