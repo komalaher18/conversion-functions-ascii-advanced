@@ -45,7 +45,7 @@ function asciiToDecimal(blob) {
   for (let i =0; i < blob.length; i++){
     const el = blob[i]
 
-    arr.push(el.CharCodeAt(0))
+    arr.push(el.charCodeAt(0))
 
   }
 
