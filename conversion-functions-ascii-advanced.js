@@ -40,7 +40,16 @@ function hexadecimalToAscii(blob) {
 
 /* ASCII to base 10 */
 function asciiToDecimal(blob) {
-  // Your code here
+  const arr = []
+
+  for (let i =0; i < blob.length; i++){
+    const el = blob[i]
+
+    arr.push(el.CharCodeAt(0))
+
+  }
+
+  return arr
 }
 
 // console.log('Binary to hexadecimal:')
